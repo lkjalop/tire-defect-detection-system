@@ -165,10 +165,11 @@ make stop
 
 ## 📞 Contact
 
-**Developer**: [Your Name]  
+**Developer**: lkjalop  
 **Program**: David Linthicum's Enterprise AI Architecture Program  
 **Organization**: Go Cloud Careers  
-**GitHub**: https://github.com/lkjalop
+**GitHub**: https://github.com/lkjalop  
+**Repository**: https://github.com/lkjalop/tire-defect-detection-system
 
 ---
 
