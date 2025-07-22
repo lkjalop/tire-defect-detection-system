@@ -1,0 +1,78 @@
+# Production-Grade Tire Defect Detection System
+# Enterprise dependencies for senior ML engineer review
+
+# Core ML/AI Framework
+ultralytics>=8.0.0          # YOLOv8 computer vision framework
+torch>=2.0.0                # PyTorch deep learning backend
+torchvision>=0.15.0         # Computer vision utilities
+numpy>=1.24.0               # Numerical computing
+opencv-python>=4.8.0        # Image processing
+
+# Web Framework & API
+fastapi>=0.104.0            # Modern async web framework
+uvicorn>=0.24.0             # ASGI server for FastAPI
+pydantic>=2.0.0             # Data validation and settings
+python-multipart>=0.0.6     # File upload support
+
+# Database & Caching
+sqlalchemy>=2.0.0           # SQL toolkit and ORM
+alembic>=1.12.0             # Database migration tool
+redis>=5.0.0                # In-memory data structure store
+psycopg2-binary>=2.9.0      # PostgreSQL adapter
+
+# Messaging & Communication
+paho-mqtt>=1.6.0            # MQTT client for IoT communication
+aiofiles>=23.0.0            # Async file operations
+
+# Monitoring & Observability
+prometheus-client>=0.17.0   # Metrics collection
+structlog>=23.0.0           # Structured logging
+python-json-logger>=2.0.0   # JSON logging formatter
+
+# Security
+cryptography>=41.0.0        # Cryptographic primitives
+python-jose>=3.3.0          # JWT token handling
+passlib>=1.7.0              # Password hashing
+bcrypt>=4.0.0               # Secure password hashing
+
+# Data Processing & Analytics
+pandas>=2.0.0               # Data manipulation and analysis
+scikit-learn>=1.3.0         # Machine learning utilities
+matplotlib>=3.7.0           # Data visualization
+seaborn>=0.12.0             # Statistical data visualization
+
+# Development & Testing
+pytest>=7.4.0               # Testing framework
+pytest-asyncio>=0.21.0      # Async test support
+black>=23.0.0               # Code formatter
+flake8>=6.0.0               # Code linting
+mypy>=1.5.0                 # Static type checking
+coverage>=7.3.0             # Test coverage measurement
+
+# Deployment & Production
+gunicorn>=21.0.0            # WSGI HTTP server
+docker>=6.0.0               # Container runtime
+python-dotenv>=1.0.0        # Environment variable management
+
+# Dashboard & UI
+streamlit>=1.28.0           # Interactive dashboard framework
+plotly>=5.17.0              # Interactive plotting
+dash>=2.14.0                # Alternative dashboard framework
+
+# Optional: Advanced ML features
+# transformers>=4.35.0      # Hugging Face transformers (if needed)
+# accelerate>=0.24.0        # ML acceleration utilities
+# datasets>=2.14.0          # Dataset management
+
+# Development utilities
+requests>=2.31.0            # HTTP library
+pillow>=10.0.0              # Image processing library
+python-dateutil>=2.8.0     # Date/time utilities
+click>=8.1.0                # Command line interface creation
+
+# Production deployment
+celery>=5.3.0               # Distributed task queue
+flower>=2.0.0               # Celery monitoring tool
+
+# Note: For production deployment, pin specific versions
+# For development, use >= to allow compatible updates
