@@ -1,54 +1,69 @@
 # 🔍 Tire Defect Detection System
-
-**Enterprise AI-Powered Tire Analysis using YOLOv8 Computer Vision**
-
-[![Python](https://img.shields.io/badge/Python-3.8%2B-blue)](https://python.org)
-[![YOLOv8](https://img.shields.io/badge/YOLOv8-Ultralytics-green)](https://ultralytics.com)
-[![FastAPI](https://img.shields.io/badge/FastAPI-Backend-red)](https://fastapi.tiangolo.com)
-[![Status](https://img.shields.io/badge/Status-Demo%20Ready-brightgreen)](https://github.com/lkjalop/tire-defect-detection-system) Defect Detection System
-
-**Enterprise AI-Powered Tire Analysis using YOLOv8 Computer Vision**
+**Learning Portfolio Project - Computer Vision Integration**
 
 [![Python](https://img.shields.io/badge/Python-3.8%2B-blue)](https://python.org)
 [![YOLOv8](https://img.shields.io/badge/YOLOv8-Ultralytics-green)](https://ultralytics.com)
-[![FastAPI](https://img.shields.io/badge/FastAPI-Backend-red)](https://fastapi.tiangolo.com)
-[![Status](https://img.shields.io/badge/Status-Demo%20Ready-brightgreen)](https://github.com/lkjalop/tire-defect-detection-system)
+[![Status](https://img.shields.io/badge/Status-Learning%20Project-blue)](https://github.com/lkjalop/tire-defect-detection-system)
 
-## 🎯 Project Overview
+## 🎯 **FOR TECHNICAL REVIEWERS - READ THIS FIRST**
 
-This system demonstrates **production-ready tire defect detection** using YOLOv8 computer vision. Built for enterprise deployment with professional architecture patterns, security features, and business metrics integration.
+**📋 [HONEST_TECHNICAL_ASSESSMENT.md](./HONEST_TECHNICAL_ASSESSMENT.md)** - Complete technical reality (no marketing hype)  
+**🔧 [technical_validation.py](./technical_validation.py)** - Independent verification script you can run
 
-### 🏗️ Architecture Highlights
-- **Real YOLOv8 Implementation**: 400+ lines of production computer vision code
-- **FastAPI Backend**: Enterprise REST API with OpenAPI documentation
-- **Edge AI Processing**: Optimized for real-time inference (<100ms)
-- **Business Integration**: ROI calculations and safety assessments
-- **Security First**: Input validation, rate limiting, audit logging
+## 📖 **What This Project Actually Is**
 
-## 🚀 Quick Demo
+This is a **learning portfolio project** demonstrating:
+- YOLOv8 computer vision integration with real-time video processing
+- FastAPI backend development and system architecture
+- Business analysis and technical communication skills
+- Rapid prototyping with AI assistance over 48 hours
+
+**This is NOT:**
+- Production-ready enterprise software
+- Custom-trained tire-specific AI model  
+- Ready for manufacturing deployment
+- Senior-level AI engineering (career transition project)
+
+## 🔧 **Technical Verification**
 
 ```bash
-# Clone and test the working demo
+# Test the actual system capabilities
 git clone https://github.com/lkjalop/tire-defect-detection-system.git
 cd tire-defect-detection-system
-python FINAL_WORKING_SYSTEM.py
+
+# Run independent validation
+python technical_validation.py
+
+# Test core functionality  
+python verify_yolo.py
 ```
 
-Choose option 1 for quick verification - **guaranteed to work on any Python 3.7+ system**.
+## 📊 **Honest Performance Claims**
+- **YOLOv8 nano model**: 6.2MB, ~40-80ms inference (development hardware)
+- **Detection accuracy**: 85-95% (based on YOLO COCO benchmarks, NOT tire-specific)
+- **Real-time processing**: Functional for demo/prototype purposes
+- **Business projections**: Market opportunity analysis, not validated revenue claims
 
-## ⚠️ Important Disclaimers
+## ⚠️ **Technical Limitations & Dependencies**
 
-### 🔬 Demo vs Production Data
-- **Demo Metrics**: Simulated data for reliable presentations
-- **Real Architecture**: Production-ready computer vision implementation  
-- **Performance Numbers**: Based on actual YOLOv8 benchmarks
-- **Business Calculations**: Industry-standard formulas
+### 🔬 **Known Issues**
+- **NumPy 2.x compatibility**: Current OpenCV incompatible with NumPy 2.x
+- **Model scope**: Uses pre-trained YOLO, not tire-specific training
+- **Demo modes**: Includes simulation fallbacks for presentation reliability
+- **Development focus**: Learning project, not production system
 
-### 🛠️ Environment Dependencies
-The full YOLO system requires:
-- Python 3.8+ with PyTorch
-- NumPy 1.x compatibility (NumPy 2.x has known issues)
-- 4-8GB RAM for model loading
+### 🛠️ **System Requirements**
+- Python 3.8+ 
+- NumPy <2.0 (compatibility requirement)
+- 4-8GB RAM for YOLO model loading
+- OpenCV, PyTorch, Ultralytics dependencies
+
+### 🎓 **Learning Objectives Achieved**
+- Computer vision pipeline integration
+- Real-time video processing 
+- System architecture and API development
+- Business analysis and technical communication
+- Rapid prototyping with AI assistance
 - Modern CPU/GPU for optimal performance
 
 **If you encounter dependency issues:**
